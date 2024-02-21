@@ -19,8 +19,8 @@ class HeapsterWatch:
         # self._minutes = 60 * hours + minutes
 
     def display(self) -> str:
-        # hours = (self.minutes // 60) % 24
-        # minutes = (self.minutes % 60)
+        # hours = (self._minutes // 60) % 24
+        # minutes = (self._minutes % 60)
         hours = self._hours
         minutes = self._minutes
         return "%02d:%02d" % (hours, minutes)
